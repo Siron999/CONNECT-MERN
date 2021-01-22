@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Roboto", sans-serif;
+}
+
+a{
+  color: aquamarine;
+  text-decoration: unset;
+}
+
+ul{
+  margin-left: 1.5rem;
+  list-style: none;
+
+}
+
+button,
+input[type="submit"] {
+  border: none;
+  background: none;
+  color: unset;
+  cursor: pointer;
+}
+
+
+h1 ,h2 ,h3 ,h4, h5, h6, p ,ul,ol {
+  margin: 0em 0;
+}
+
+
+.headerclass{
+  display: flex;
+  align-items: center;
+  background-color: #424874;
+  height: 60px;
+  justify-content: space-between;
+}
+
+.headerclass #title {
+  margin:0;
+  margin-left: 15px;
+  padding: 0 1rem;
+  color: aliceblue;
+}
+
+.headerclass .auth-option {
+  display: flex;
+  height: 100%;
+  
+}
+.headerclass .auth-option button{
+  background-color:#424874;
+  padding: 0 1rem;
+  color: aliceblue;
+  font-size: 1.1rem;
+  width: 90px;
+ 
+}
+
+.headerclass .auth-option button:hover{
+  background-color: #51588d;
+  /* color:#c2bcdd; */
+}
+
+.register-main-div{
+  display: block;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: start;
+}
+
+.login-main-div{
+  display: block;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: start;
+}
+
+.container1{
+  display: block;
+  max-width:900px;
+  margin:0 auto;
+}
+.form{
+  margin-top: 1rem;
+}
+.form label,
+.form input {
+  display: block;
+}
+
+.form input{
+  margin-bottom: 0.5rem;
+  height: 1.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid black;
+  
+}
+
+.form input[type="text"]{
+  width:100%;
+}
+
+.form input[type="password"]{
+  width:100%;
+}
+
+.form label{
+  margin-bottom: 0.2rem;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.form input[type="submit"]{
+  background-color:rgb(2, 83, 83) ;
+  border: 1px solid black;
+  border-radius: 0.3rem;
+  color: aliceblue;
+  height: 1.5rem;
+  width:5rem;
+
+  padding :0.3rem 0.4rem;
+  margin-top: 1rem;
+}
+
+form input[type="submit"]:hover{
+  background-color:rgb(6, 155, 155) ;
+}
